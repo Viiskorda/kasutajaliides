@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<!--
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>IDM - Task</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
+	</noscript>
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body id="top">
+
+	<!-- Header -->
+	<!-- <header id="header" class="skel-layers-fixed">
+				<h1><a href="#">Ion</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="#" class="button special">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header> -->
+
+			<header id="header" class="skel-layers-fixed">
+					<h1><a href="#">Ideal Dream Match</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="left-sidebar.html">Left Sidebar</a></li>
+							<li><a href="right-sidebar.html">Right Sidebar</a></li>
+							<li><a href="task.html">Make a Task</a></li>
+							<li><a href="artlover.html">Tasks</a></li>
+							<li><a href="designer.html">Designer</a></li>
+							<li><span style="color:#3e3652">Hello, 
+							
+							<script>		
+								var url_string = window.location.href; //window.location.href
+								var url = new URL(url_string);
+								var uname = url.searchParams.get("uname");
+								console.log(uname);
+								document.write(uname);</script>	</span></li>
+							<!-- <li><a href="#" class="button special">Login</a></li> -->
+			
+						</ul>
+					</nav>
+				</header>
+
+
+	<!-- Main -->
+	<section id="main" class="wrapper style1">
+		<header class="major">
+			<h2>Adding Task</h2>
+			<p>Find An Art Match</p>
+	<div class="content-task">
+		
+		<div class="container">
+			<form action="/action_page.php">
+			  <div class="row">
+				<div class="col-25">
+				  <label for="fname">Name of task:</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="lname">Description</label>
+				</div>
+				<div class="col-75">
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+				  </div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="country">Choose category</label>
+				</div>
+				<div class="col-75">
+				  <select id="country" name="country">
+					<option value="australia">Please choose</option>
+					<option value="canada">Handicraft</option>
+					<option value="usa">Painting</option>
+					<option value="canada">Juvelry</option>
+					<option value="usa">Woodwork</option>
+					<option value="usa">Other</option>
+				</select>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="subject">Subject</label>
+				</div>
+				<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+				<img class="drag1" src="images/drop-files-here.jpg" alt="Drag files here" draggable="true"
+				ondragstart="drag(event)" width="800" height="200">
+				
+			  </div><b>Or choose file: </b><input type="file"
+			  id="avatar" name="avatar"
+			 >
+			  <div class="row">
+				<input type="submit" value="Submit">
+			  </div>
+			</form>
+		  </div>
+		  
+
+
+
+
+
+	</div>
+		</header>
+
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row double">
+		
+				<div class="12u">
+					<h2 style="text-align: center">Aliquam Interdum</h2>
+					<p style="text-align: center; max-width: 500px;margin:auto">Blandit nunc tempor lobortis nunc non. Mi accumsan. Justo aliquet massa adipiscing cubilia eu accumsan id. Arcu
+						accumsan faucibus vis ultricies adipiscing ornare ut. Mi accumsan justo aliquet.</p>
+					<ul class="icons" style="text-align: center;margin:10px">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<ul class="copyright">
+				<li>&copy; Annemarii & Sofia</li>
+				<li>Design: <a href="http://templated.co">TEMPLATED</a> + Custom by Annemarii & Sofia</li>
+				<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+			</ul>
+		</div>
+	</footer>
+
+
+	<script>
+		function allowDrop(ev) {
+			ev.preventDefault();
+		}
+		
+		function drag(ev) {
+			ev.dataTransfer.setData("text", ev.target.id);
+		}
+		
+		function drop(ev) {
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text");
+			ev.target.appendChild(document.getElementById(data));
+		}
+		</script>
+
+	
+</body>
+
+</html>
