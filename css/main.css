@@ -41,7 +41,7 @@
 		/* Center the image and position the close button */
 		.imgcontainer {
 			text-align: center;
-			margin: 24px 0 12px 0;
+			
 			position: relative;
 		}
 		
@@ -58,7 +58,7 @@
 		.container-login button {
 			border-radius: 3px;
 			background: rgb(110, 145, 171);
-			width: 100%;
+		
 		}
 		.container-forgot {
 		
@@ -98,7 +98,7 @@
 		/* The Close Button (x) */
 		.close {
 			position: absolute;
-			right: 25px;
+			right: 5px;
 			top: 0;
 			color: #000;
 			font-size: 35px;
@@ -253,4 +253,17 @@
 			
 			.dropdown:hover .dropdown-content {
 				display: block;
+			}
+
+
+			.choose{
+				width: 48%;
+				float:left;
+				margin-right: 5px;
+
+			}
+
+			.choose .center{
+			
+
 			}

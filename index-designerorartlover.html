@@ -36,22 +36,22 @@
 
 
 	<header id="header" class="skel-layers-fixed">
-		<h1><a href="#">Ideal Dream Match</a></h1>
+		<h1><a href="index.html">Ideal Dream Match</a></h1>
 		<nav id="nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
+
 				<li><a href="left-sidebar.html">Left Sidebar</a></li>
 				<li><a href="right-sidebar.html">Right Sidebar</a></li>
 				<li><a href="no-sidebar.html">No Sidebar</a></li>
-				<li><a href="no-sidebar.html">No Sidebar</a></li>
-				<li><span style="color:#3e3652">Hello, 
-				
-				<script>		
-					var url_string = window.location.href; //window.location.href
-					var url = new URL(url_string);
-					var uname = url.searchParams.get("uname");
-					console.log(uname);
-					document.write(uname);</script>	</span></li>
+
+				<li><span style="color:#3e3652">Hello,
+
+						<script>
+							var url_string = window.location.href; //window.location.href
+							var url = new URL(url_string);
+							var uname = url.searchParams.get("uname");
+							console.log(uname);
+							document.write(uname);</script> </span></li>
 				<!-- <li><a href="#" class="button special">Login</a></li> -->
 
 			</ul>
@@ -64,15 +64,28 @@
 			<!-- <form class="modal-content animate" action="/action_page.php"> -->
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-				
-				</div>
+
+			</div>
 
 			<div class="container-login">
-				
-				<p>Would you like to be a designer or art lover?</p><!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
-		
-				<span onclick="document.getElementById('id01').style.display='none'" ><a href="index-logged-in.html" ><input type="button" value="Designer"  style="background:#8e0e0e;width:49%"></a></span>
-				<span onclick="document.getElementById('id01').style.display='none'" ><a href="index-logged-in.html" ><input type="button" value="Art lover" 	 style="background: #205825;width:49%"></a></span>
+
+			<center>	<p style="font-size: 20px;">Would you like to be a designer or art lover?</p><!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+				<div class="choose">
+					<span onclick="document.getElementById('id01').style.display='none'"><a href="index-logged-in.html"><input type="button"
+							 value="Designer" style="background:#8e0e0e;width:100%"></a>
+							
+						
+					</span><center>Select this one if you want to load your portfolio</center>
+
+				</div>
+				<div class="choose">
+					<span onclick="document.getElementById('id01').style.display='none'"><a href="index-logged-in.html"><input type="button"
+							 value="Art lover" style="background: #205825;width:100%"></a></span>
+
+							 <center>Choosi this option if you just want to observe and maybe make a task. You can always change your choice</center>
+
+				</div>
+				&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;
 			</div>
 
 
@@ -186,9 +199,9 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row double">
-			
+
 				<div class="6u" style="text-align:center; width: 100%">
-						<ul class="icons">
+					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
@@ -216,7 +229,7 @@
 		window.onclick = function (event) {
 			if (event.target == modal) {
 				modal.style.display = "none";
-							}
+			}
 		};
 
 
