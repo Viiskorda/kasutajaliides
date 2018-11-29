@@ -941,7 +941,7 @@
 				#header nav > ul > li {
 					border-radius: 6px;
 					display: inline-block;
-					margin-left: 2em;
+					margin-left: 1em;
 					padding-left: 0;
 				}
 
@@ -1086,6 +1086,7 @@
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: center;
+			background-color: #fdefef;
 		}
 
 			#footer .copyright li {
