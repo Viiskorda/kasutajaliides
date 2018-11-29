@@ -30,6 +30,9 @@
 		a:hover {
 			text-decoration: none;
 		}
+		a:active {
+			color: #629DD1;
+		}
 
 	strong, b {
 		color: #666f77;

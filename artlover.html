@@ -47,16 +47,31 @@
 							
 						
 							<li><a href="task.html">Make a Task</a></li>
-							<li><a href="artlover.html">Tasks</a></li>
+							<li><a style="color:#629DD1;">Tasks</a></li>
 							<li><a href="designer.html">Designer</a></li>
-							<li><span style="color:#3e3652">Hello, 
-							
-							<script>		
-								var url_string = window.location.href; //window.location.href
-								var url = new URL(url_string);
-								var uname = url.searchParams.get("uname");
-								console.log(uname);
-								document.write(uname);</script>	</span></li>
+							<li><a >
+
+
+							</a>
+							<div class="dropdown">
+								<button class="dropbtn">
+									Hello,
+									<script>
+										var url_string = window.location.href; //window.location.href
+										var url = new URL(url_string);
+										var uname = url.searchParams.get("uname");
+										console.log(uname);
+										document.write(uname);</script>
+		
+		
+								</button>
+								<div class="dropdown-content">
+									<a href="#">My info</a>
+									<a href="#">My Tasks</a>
+									<a href="#">E-mail</a>
+								</div>
+							</div>
+						</li>
 							<!-- <li><a href="#" class="button special">Login</a></li> -->
 			
 						</ul>
