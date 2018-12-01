@@ -45,20 +45,36 @@
 					<nav id="nav">
 						<ul>
 				
-							<li><a href="left-sidebar.html">Left Sidebar</a></li>
+						
 							<li><a href="right-sidebar.html">Right Sidebar</a></li>
 							<li><a style="color:#629DD1;">Make a Task</a></li>
 							<li><a href="artlover.html">Tasks</a></li>
 							<li><a href="designer.html">Designer</a></li>
-							<li><span style="color:#3e3652">Hello, 
+						
 							
-							<script>		
-								var url_string = window.location.href; //window.location.href
-								var url = new URL(url_string);
-								var uname = url.searchParams.get("uname");
-								console.log(uname);
-								document.write(uname);</script>	</span></li>
-							<!-- <li><a href="#" class="button special">Login</a></li> -->
+								<li><a href="designer.html">
+
+
+								</a>
+								<div class="dropdown">
+									<button class="dropbtn">
+										Hello,
+										<script>
+											var url_string = window.location.href; //window.location.href
+											var url = new URL(url_string);
+											var uname = url.searchParams.get("uname");
+											console.log(uname);
+											document.write(uname);</script>
+			
+			
+									</button>
+									<div class="dropdown-content">
+										<a href="#">My site</a>
+										<a href="#">My Tasks</a>
+										<a href="#">E-mail</a>
+									</div>
+								</div>
+							</li>
 			
 						</ul>
 					</nav>
@@ -69,7 +85,7 @@
 	<section id="main" class="wrapper style1">
 		<header class="major">
 			<h2>Adding Task</h2>
-			<p>Find An Art Match</p>
+			<p>Find An Art Match</p>	</header>
 	<div class="content-task">
 		
 		<div class="container">
@@ -109,17 +125,26 @@
 				<div class="col-25">
 				  <label for="subject">Subject</label>
 				</div>
+
+				<div class="col-75">
 				<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 				<img class="drag1" src="images/drop-files-here.jpg" alt="Drag files here" draggable="true"
 				ondragstart="drag(event)" width="800" height="200">
 				
-			  </div><b>Or choose file: </b><input type="file"
+				</div>
+				<div class="col-25">
+				<b>Or choose file: </b>
+			</div>
+			<div class="col-75">
+				<input type="file"
 			  id="avatar" name="avatar"
 			 >
-			  <div class="row">
+			 <br><br>
 				<input type="submit" value="Submit">
-			  </div>
+		
+				</div>
+			</div>
 			</form>
 		  </div>
 		  
@@ -129,7 +154,7 @@
 
 
 	</div>
-		</header>
+	
 
 	</section>
 
